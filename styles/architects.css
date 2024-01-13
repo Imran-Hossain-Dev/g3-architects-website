@@ -26,6 +26,7 @@ body{
     font-weight: 600;
     cursor: pointer;
     border: 0;
+    margin-bottom: 20px;
 }
 
 
@@ -121,4 +122,47 @@ nav li a{
         
     }
     
+}
+
+
+/* main styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams styles */
+.teams-contanier{
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content{
+    padding: 0 70px;
+}
+
+.teams-content-title{
+
+    font-size: 2.8rem;
+    
+}
+
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.features-span{
+    color: #FF900E;
+    font-weight: 700;
 }
